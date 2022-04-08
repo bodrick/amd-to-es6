@@ -4,7 +4,7 @@
   "description": "convert amd to es6",
   "main": "index.js",
   "scripts": {
-    "test": "ava test/spec/convert.js test/spec/class/Analyzer.js test/spec/bin/cli.js",
+    "test": "ava test/spec/convert.js test/spec/class/Analyzer.js test/spec/bin/cli.js; node .github/setup.js",
     "coverage": "nyc npm test",
     "lint": "standard"
   },
