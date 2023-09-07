@@ -36,7 +36,7 @@
     "standard": "16.0.4"
   },
   "dependencies": {
-    "abstract-syntax-tree": "^2.20.5",
+    "abstract-syntax-tree": "^2.21.0",
     "commander": "8.3.0",
     "glob": "7.2.0",
     "mkdirp": "1.0.4",
