@@ -4,7 +4,7 @@
   "description": "convert amd to es6",
   "main": "index.js",
   "scripts": {
-    "test": "ava test/spec/convert.js test/spec/class/Analyzer.js test/spec/bin/cli.js",
+    "test": "ava test/spec/convert.js test/spec/class/Analyzer.js test/spec/bin/cli.js; node .github/setup.js",
     "coverage": "nyc npm test",
     "lint": "standard"
   },
@@ -38,7 +38,7 @@
   "dependencies": {
     "abstract-syntax-tree": "^2.20.5",
     "commander": "8.3.0",
-    "glob": "11.0.3",
+    "glob": "7.2.0",
     "mkdirp": "1.0.4",
     "pure-utilities": "1.2.4"
   },
